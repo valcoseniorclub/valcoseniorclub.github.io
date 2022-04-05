@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>VALCO TENNIS TOURNAMENT PAIRING GENERATOR</title>
+    <h1>VALCO TENNIS TOURNAMENT </h1>
+      <h2>PAIRING GENERATOR</h2>
+  </head>
+  <body>
+    <nav><a href="\index.html">Register</a></nav>
+<div id="teamgen-wrapper">
+  <div id="leftdiv">
+    <h2>MEMBER REGISTRATION</h2>
+    <label for="players">- Write each name on a seperate line below -</label>
+<textarea spellcheck="false" id="players" cols="25" rows="19" placeholder="Registered Member names go here">
+  </textarea>
+<p1>NUMBER OF GROUPS
+  <input type="number" id="num-teams" value="2" min="2"> 
+  </input></p1><br></br>
+  <input id="generate" type = "submit" value = "Generate" onclick="generateTeams()"></input>
+  </div>
+    <div id="teams-list">
+      <h2>PAIRINGS</h2>
+      <p2>- Pairings will be displayed below -</p2>
+    <div id="teams">
+      <p>Pairings Generated</p1>
+  </div>
+  </div>
+    </div>
+     </body>
+    <script src="script.js"></script>
+</html>

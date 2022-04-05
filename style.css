@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&;');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  background-image: url(assets/VALCOtennis1jpg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+h1, nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  width: 1000px;
+  text-shadow: 1px 3px 10px #ff2424;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+#teamgen-wrapper {
+  display: block;
+  width: 1000px; 
+  margin: auto;
+}
+
+#leftdiv {
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  align-text: center;
+  width: 365px;
+  display: block;
+  text-align: center;
+  
+}
+
+h2 {
+  color: #ff9191;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+textarea {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 15px;
+  display: block;.
+  height: 300px;
+  width: 365px;
+  margin-bottom: 15px;
+  outline: none;
+  box-sizing: border-box;
+  padding-left: 8px;
+  background-color: #3b3737;
+  border-radius: 5px;
+  border-color: #212121;
+  color: white;
+  resize: none;
+}
+
+p1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+#num-teams {
+  width: 50px;
+  border-width: 1px;
+  border-color: #212121;
+  border-style: solid;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  margin-left: 2px;
+  padding-left: 1px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  text-align: center;
+  background-color: #383838;
+  color: white;
+  outline: none;
+}
+
+#generate {
+  background-color: #bd383a;
+  border-style: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: background-color, 300ms;
+}
+
+#generate:hover {
+  background-color: #770a0c; 
+}
+
+#teams-list {
+  text-align: center;
+}
+
+p2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+#teams {
+  font-family: "Russo One", sans-serif;
+  font-size: 16px;
+  color: #ff4848;
+}
+
+p {
+  color: #ff4848;
+  background-color: #2b2a2a;
+  padding: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
